@@ -4,49 +4,35 @@ class Program
 {
     static void Main(string[] args)
     {
-        // ===============================
-        // 1️⃣ Calculadora de Edad Exacta
-        // ===============================
-
-        Console.WriteLine("=== CALCULADORA DE EDAD EXACTA ===");
         Console.Write("Ingresa tu fecha de nacimiento (yyyy-MM-dd): ");
-        string fechaTexto = Console.ReadLine();
+        string fechaTexto = Console.ReadLine() ?? "";
 
-        DateTime fechaNacimiento = DateTime.Parse(fechaTexto);
-        DateTime fechaActual = DateTime.Now;
+        if (DateTime.TryParse(fechaTexto, out DateTime fechaNacimiento))
+        {
+            TimeSpan diferencia = DateTime.Now - fechaNacimiento;
+            Console.WriteLine($"Tienes {diferencia.Days} días de vida.");
+        }
+        else
+        {
+            Console.WriteLine("Fecha inválida.");
+        }
 
-        TimeSpan diferencia = fechaActual - fechaNacimiento;
-
-        Console.WriteLine($"Tienes {diferencia.Days} días de vida.");
-        Console.WriteLine();
-
-
-        // ===============================
-        // 2️⃣ Corrector de Nombres
-        // ===============================
-
-        Console.WriteLine("=== CORRECTOR DE NOMBRES ===");
         Console.Write("Ingresa tu nombre completo: ");
-        string nombre = Console.ReadLine();
-
+        string nombre = Console.ReadLine() ?? "";
         string nombreLimpio = nombre.Trim().ToUpper();
-
         Console.WriteLine($"BIENVENIDO, {nombreLimpio}");
-        Console.WriteLine();
 
-
-        // ===============================
-        // 3️⃣ Analizador de Correos
-        // ===============================
-
-        Console.WriteLine("=== ANALIZADOR DE CORREOS ===");
         Console.Write("Ingresa tu correo: ");
-        string correo = Console.ReadLine();
+        string correo = Console.ReadLine() ?? "";
 
-        // Opción 1: usando Split
-        string[] partes = correo.Split('@');
-        string dominio = partes[1];
-
-        Console.WriteLine($"El dominio es: {dominio}");
+        if (correo.Contains("@"))
+        {
+            string[] partes = correo.Split('@');
+            Console.WriteLine($"El dominio es: {partes[1]}");
+        }
+        else
+        {
+            Console.WriteLine("Correo inválido.");
+        }
     }
 }
