@@ -47,6 +47,6 @@ class Program
         string[] partes = correo.Split('@');
         string dominio = partes[1];
 
-        Console.WriteLine($"El dominio es: {dominio}")
+        Console.WriteLine($"El dominio es: {dominio}");
     }
 }
