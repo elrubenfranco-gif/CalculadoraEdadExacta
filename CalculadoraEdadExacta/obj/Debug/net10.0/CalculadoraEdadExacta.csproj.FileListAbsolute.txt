@@ -1,0 +1,15 @@
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/bin/Debug/net10.0/CalculadoraEdadExacta
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/bin/Debug/net10.0/CalculadoraEdadExacta.deps.json
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/bin/Debug/net10.0/CalculadoraEdadExacta.runtimeconfig.json
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/bin/Debug/net10.0/CalculadoraEdadExacta.dll
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/bin/Debug/net10.0/CalculadoraEdadExacta.pdb
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.AssemblyInfoInputs.cache
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.AssemblyInfo.cs
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.csproj.CoreCompileInputs.cache
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.sourcelink.json
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.dll
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/refint/CalculadoraEdadExacta.dll
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.pdb
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/CalculadoraEdadExacta.genruntimeconfig.cache
+/workspaces/CalculadoraEdadExacta/CalculadoraEdadExacta/obj/Debug/net10.0/ref/CalculadoraEdadExacta.dll
