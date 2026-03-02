@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraEdadExacta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9f2b1ab8e7b49ff49f2163c3845c3750454177a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb564c9385b93a3a4244dbdcbe9d8e7171f91371")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraEdadExacta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraEdadExacta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
